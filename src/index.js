@@ -11,10 +11,6 @@ dotenv.config();
 
 var app = express();
 
-// configure the app to use bodyParser()
-// app.use(bodyParser.urlencoded({
-//     extended: true
-// }));
 app.use(bodyParser.json());
 
 // allow user to create an user and login.

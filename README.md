@@ -28,3 +28,12 @@ npm test
 ```
 npm run lint
 ```
+
+#### debug
+```
+node-inspector  # lauch this in a new tab
+npm run debug
+
+netstat -p tcp | $port # find if some app is using defualt port:5858
+ps ax | grep node      # find process id to Kill #number
+ ```
